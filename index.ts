@@ -7,7 +7,7 @@ app.use(cors())
 const port = 8000;
 
 app.get("/",(req: Request, res: Response) => {
-    res.status(200).send("Express in docker is working...")
+    res.status(200).send("Express in docker is working...And now with logs")
 })
 
 app.listen(port,()=> {
